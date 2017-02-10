@@ -8,7 +8,19 @@ class LiveCrawler extends Worker
     {
         $this->live = $live;
     }
+	
+	
+	public function init(){
 
+		run();
+	}
+
+	public function intiImg(){
+		
+		run();
+	
+	}
+	
     public function run ()
     {
         $dbh = new PDO('mysql:host=localhost;dbname=fs', 'root', 'root');
