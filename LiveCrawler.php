@@ -15,6 +15,12 @@ class LiveCrawler extends Worker
 		run();
 	}
 
+	public function intiImg(){
+		
+		run();
+	
+	}
+	
     public function run ()
     {
         $dbh = new PDO('mysql:host=localhost;dbname=fs', 'root', 'root');
