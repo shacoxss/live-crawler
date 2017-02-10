@@ -8,6 +8,12 @@ class LiveCrawler extends Worker
     {
         $this->live = $live;
     }
+	
+	
+	public function init(){
+
+		run();
+	}
 
     public function run ()
     {
